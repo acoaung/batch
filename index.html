@@ -1,75 +1,92 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>
-Daisy
-</title>
-<style>
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-body {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow-x: hidden;
-  flex-direction: column;
-  }
-</style>
-</head>
-<body>
-
-<h1>
-Hello World
-</h1>
-
-<div>
-<div class="gallery">
-  <a target="_blank" href="https://scontent-sin6-1.xx.fbcdn.net/v/t39.30808-6/277771083_2763015913994377_5846951709978491548_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_ohc=uggBtddOPkoAX9V40ZG&_nc_ht=scontent-sin6-1.xx&oh=00_AT8V-wuTilBV6f9Z34Bb6FXuapj1TGdwZ42SaSLn1W0hGw&oe=6296959B">
-    <img src="https://scontent-sin6-1.xx.fbcdn.net/v/t39.30808-6/277771083_2763015913994377_5846951709978491548_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_ohc=uggBtddOPkoAX9V40ZG&_nc_ht=scontent-sin6-1.xx&oh=00_AT8V-wuTilBV6f9Z34Bb6FXuapj1TGdwZ42SaSLn1W0hGw&oe=6296959B" alt="Daisy FB cover" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/278224765_2763118443984124_3776275939364729487_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=SP79ykWY2IgAX8gFl9m&_nc_ht=scontent-sin6-2.xx&oh=00_AT-YehbULERLu2VJN2J7i01ahXEe_sIuO6nUbiOfUnbXBA&oe=629650DF">
-    <img src="https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/278224765_2763118443984124_3776275939364729487_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=SP79ykWY2IgAX8gFl9m&_nc_ht=scontent-sin6-2.xx&oh=00_AT-YehbULERLu2VJN2J7i01ahXEe_sIuO6nUbiOfUnbXBA&oe=629650DF" alt="Daisy FB profile" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="https://scontent-sin6-1.xx.fbcdn.net/v/t39.30808-6/277771083_2763015913994377_5846951709978491548_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_ohc=uggBtddOPkoAX9V40ZG&_nc_ht=scontent-sin6-1.xx&oh=00_AT8V-wuTilBV6f9Z34Bb6FXuapj1TGdwZ42SaSLn1W0hGw&oe=6296959B">
-    <img src="https://scontent-sin6-1.xx.fbcdn.net/v/t39.30808-6/277771083_2763015913994377_5846951709978491548_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_ohc=uggBtddOPkoAX9V40ZG&_nc_ht=scontent-sin6-1.xx&oh=00_AT8V-wuTilBV6f9Z34Bb6FXuapj1TGdwZ42SaSLn1W0hGw&oe=6296959B" alt="Daisy FB cover" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/278224765_2763118443984124_3776275939364729487_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=SP79ykWY2IgAX8gFl9m&_nc_ht=scontent-sin6-2.xx&oh=00_AT-YehbULERLu2VJN2J7i01ahXEe_sIuO6nUbiOfUnbXBA&oe=629650DF">
-    <img src="https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/278224765_2763118443984124_3776275939364729487_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=SP79ykWY2IgAX8gFl9m&_nc_ht=scontent-sin6-2.xx&oh=00_AT-YehbULERLu2VJN2J7i01ahXEe_sIuO6nUbiOfUnbXBA&oe=629650DF" alt="Daisy FB profile" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-</div>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daisy</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div
+      class="container d-flex justify-content-center align-center flex-column"
+    >
+      <h3 class="align-self-center mb-5">Hello My World</h3>
+      <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img
+              src="https://scontent-sin6-1.xx.fbcdn.net/v/t39.30808-6/277771083_2763015913994377_5846951709978491548_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_ohc=uggBtddOPkoAX9V40ZG&_nc_ht=scontent-sin6-1.xx&oh=00_AT8V-wuTilBV6f9Z34Bb6FXuapj1TGdwZ42SaSLn1W0hGw&oe=6296959B"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="https://scontent-sin6-1.xx.fbcdn.net/v/t39.30808-6/277771083_2763015913994377_5846951709978491548_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_ohc=uggBtddOPkoAX9V40ZG&_nc_ht=scontent-sin6-1.xx&oh=00_AT8V-wuTilBV6f9Z34Bb6FXuapj1TGdwZ42SaSLn1W0hGw&oe=6296959B" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img
+              src="https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/278224765_2763118443984124_3776275939364729487_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=SP79ykWY2IgAX8gFl9m&_nc_ht=scontent-sin6-2.xx&oh=00_AT-YehbULERLu2VJN2J7i01ahXEe_sIuO6nUbiOfUnbXBA&oe=629650DF"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/278224765_2763118443984124_3776275939364729487_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=SP79ykWY2IgAX8gFl9m&_nc_ht=scontent-sin6-2.xx&oh=00_AT-YehbULERLu2VJN2J7i01ahXEe_sIuO6nUbiOfUnbXBA&oe=629650DF" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img
+              src="https://scontent-sin6-1.xx.fbcdn.net/v/t39.30808-6/277771083_2763015913994377_5846951709978491548_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_ohc=uggBtddOPkoAX9V40ZG&_nc_ht=scontent-sin6-1.xx&oh=00_AT8V-wuTilBV6f9Z34Bb6FXuapj1TGdwZ42SaSLn1W0hGw&oe=6296959B"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="https://scontent-sin6-1.xx.fbcdn.net/v/t39.30808-6/277771083_2763015913994377_5846951709978491548_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_ohc=uggBtddOPkoAX9V40ZG&_nc_ht=scontent-sin6-1.xx&oh=00_AT8V-wuTilBV6f9Z34Bb6FXuapj1TGdwZ42SaSLn1W0hGw&oe=6296959B" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card">
+            <img
+              src="https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/278224765_2763118443984124_3776275939364729487_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=SP79ykWY2IgAX8gFl9m&_nc_ht=scontent-sin6-2.xx&oh=00_AT-YehbULERLu2VJN2J7i01ahXEe_sIuO6nUbiOfUnbXBA&oe=629650DF"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/278224765_2763118443984124_3776275939364729487_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=SP79ykWY2IgAX8gFl9m&_nc_ht=scontent-sin6-2.xx&oh=00_AT-YehbULERLu2VJN2J7i01ahXEe_sIuO6nUbiOfUnbXBA&oe=629650DF" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
